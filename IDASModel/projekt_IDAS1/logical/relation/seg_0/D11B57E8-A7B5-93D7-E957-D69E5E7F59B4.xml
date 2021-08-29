@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="D11B57E8-A7B5-93D7-E957-D69E5E7F59B4">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:27:23 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<sourcePk>37290E1A-F878-9C54-7239-B0DB23C97C3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6155FD03-524F-64D5-2863-82B33A81F75E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2FB401AD-FA55-B75B-8758-4966EF7672FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

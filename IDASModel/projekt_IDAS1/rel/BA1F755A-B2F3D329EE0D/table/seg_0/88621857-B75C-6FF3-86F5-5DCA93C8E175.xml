@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88621857-B75C-6FF3-86F5-5DCA93C8E175" name="Relation_1">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B4282F8-1F41-C508-6DBB-AFC1D9AFD9BB" name="Relation_1_PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="236065B4-B74A-1F99-FCE0-B5A6C9606B8E" name="Relation_1_STUDIJNI_PLAN_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>C6C7223E-F4A5-2F5D-84B6-26970EF3E11E</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="526B9DE0-1FDD-1BF4-5438-D928B66EF696" name="Relation_1_USER_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>C6C7223E-F4A5-2F5D-84B6-26970EF3E11E</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

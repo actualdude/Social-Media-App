@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projekt_IDAS1" id="BFE5C437-C524-8C66-EECB-384EAA8CD9EB" version="3.5">
+<createdBy>mobo0877</createdBy>
+<createdTime>2019-04-01 11:37:32 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BFE5C437-C524-8C66-EECB-384EAA8CD9EB</designId>
+</OSDM_Design>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F899EAC5-64A5-2627-4E97-4F46677BE094" name="PREDMETY_SP">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>76C1FEA7-AA71-D3B4-353E-DA2778698B1E</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_predmetu_SP" id="A985A0DA-E8DD-3D3B-1311-E3EDEB2D9316">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>7BFFD023-333E-4DFA-361B-55C8C89F7B83</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_planu" id="4B947387-59DF-56EA-BB90-8865CF4CF66A">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>2F96A780-DFCF-4778-ECD5-A33D057350F6</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_predmetu" id="4FF18F6D-3E2A-E282-4AA5-AE15F88902B6">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>AC754ED7-1552-5E87-5571-6F9D7A31F54B</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_skupiny" id="1BFF3ED1-AE13-11F8-B2CD-12E528FB0CAD">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>67BD3E75-D595-0CBA-A56E-E85EA186816A</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23C44D0E-181D-2A9D-6318-13EEDCACB850" name="PREDMETY_SP_PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>13851811-7812-2BF8-65EA-EACAA6E9AD72</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="25C74E7E-1470-75D4-52CC-FBCDA9BDA1F7" name="PREDMETY_SP_STUDIJNI_PLAN_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>5A658822-E801-2AA7-82F4-7A6756FC89C9</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="9332157F-0E06-4514-9B29-39BDEB1F90D5" name="PREDMETY_SP_PREDMET_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>BAF26993-387E-871C-048F-8F72515BF987</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="53DE7C11-1D33-E0C6-C9AF-30D053DD0C25" name="PREDMETY_SP_SKUPINA_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>5196C84C-1A53-B29A-E987-F417C24488E5</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

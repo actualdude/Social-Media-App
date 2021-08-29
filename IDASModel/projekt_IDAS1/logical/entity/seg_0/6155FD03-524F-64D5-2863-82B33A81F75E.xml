@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6155FD03-524F-64D5-2863-82B33A81F75E" name="objekt_oznameni">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:20:38 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E532ABA5-E7FE-FDDD-7A25-33B72A7A7C8B">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:21:04 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="casove_razitko" id="0FD1BB87-9A0C-B3FC-E66E-359F4B6931FD">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:21:33 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="4DAC80EE-E7CB-D4EC-A8AB-308C03527B28">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:22:24 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_typ_entity" id="C7B983DF-4524-5D54-E0A8-8642273929F8">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:23:14 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_entity" id="3D7BE733-5BFE-042A-DFA1-FF86FD6CD78C">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:24:11 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37290E1A-F878-9C54-7239-B0DB23C97C3A" name="objekt_oznameni PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:21:10 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E532ABA5-E7FE-FDDD-7A25-33B72A7A7C8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

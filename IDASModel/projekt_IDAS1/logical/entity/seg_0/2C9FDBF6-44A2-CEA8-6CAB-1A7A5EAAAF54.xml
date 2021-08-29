@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C9FDBF6-44A2-CEA8-6CAB-1A7A5EAAAF54" name="SKUPINA">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:30 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_skupiny" id="535EBD20-3E35-DED4-171C-60C83831583C">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:30 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>962FC372-34C7-BEA3-82C0-0D96D070752D</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="827AD3BD-5A1B-0446-7BF7-28DCEA48B186">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:30 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>A44A40CF-BAAB-E588-BE72-C2793ECEC31D</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_komentare" id="90C0A8C6-EE83-A78C-6D98-9492A14AA068">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 06:23:34 UTC</createdTime>
+<generatorID>D504C0B0-1BF0-8555-F086-1C9BFFAD53D6</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4AA89D5B-9DA3-7684-8B2F-74A21C8CF682</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="30579B00-302E-E60F-D717-E16ED34A2450">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:16:19 UTC</createdTime>
+<generatorID>D504C0B0-1BF0-8555-F086-1C9BFFAD53D6</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>58EED742-1A34-EEF2-ADC8-867DD557EC5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3462867-72A1-EDBB-F789-6AF2132B337B" name="SKUPINA PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:30 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>535EBD20-3E35-DED4-171C-60C83831583C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

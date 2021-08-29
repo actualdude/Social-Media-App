@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="531735D6-6A22-BBB9-5581-16D31262A785" name="KOMENTAR">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:55:28 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_komentare" id="4AA89D5B-9DA3-7684-8B2F-74A21C8CF682">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:55:28 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>E2FAA0E8-0E51-7D63-0F91-023FC29ECBEF</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="2E0F6CAF-5E57-7242-F52C-64D49EE41595">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:55:28 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>0F5139E0-6C21-D64E-49A3-3A635D8EFA89</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Obsah" id="A37406D3-CB0B-C7BD-D7AA-A5C8026DCE64">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:55:28 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>D84F781B-C15D-8922-7984-0DF0AEEF005B</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_komentare1" id="6B79D17E-893E-DD73-CD1F-7A3228884792">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 13:07:30 UTC</createdTime>
+<generatorID>8C3A498B-0EBB-2486-AA9F-4FC8542CD27B</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4AA89D5B-9DA3-7684-8B2F-74A21C8CF682</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="blokace" id="B84F0D18-E6E8-0A89-5B7D-AA162028F56B">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-17 15:32:25 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="58EED742-1A34-EEF2-ADC8-867DD557EC5F">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:16:19 UTC</createdTime>
+<generatorID>4CA4CD32-AADC-CE9E-2C6D-F1A6366C0190</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<referedAttribute>FF75940E-1EDB-7691-0009-990414A20337</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5E8B31BC-B47C-8832-4E4C-B3D74E7DA934">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-11-27 05:16:19 UTC</createdTime>
+<generatorID>8C3A498B-0EBB-2486-AA9F-4FC8542CD27B</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>58EED742-1A34-EEF2-ADC8-867DD557EC5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44845DE0-CB8A-E1D6-5650-3EF70F2BE29B" name="Komentar PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:55:28 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AA89D5B-9DA3-7684-8B2F-74A21C8CF682</attributeRef>
+<attributeRef>58EED742-1A34-EEF2-ADC8-867DD557EC5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

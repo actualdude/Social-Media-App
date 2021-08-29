@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECCF4A94-4C33-D2E3-65B5-B023A13BC6E7" name="UDALOST">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_zd" id="3CAB40FE-DBF4-21C1-A4A1-8C44E9D18D95">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>B3660848-25D5-A01A-8939-963162417C8A</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datium" id="ABEFBD48-8252-5190-D599-19897FB647DE">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>87CF2100-5E1B-3D2F-F2B2-810E72761C8F</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Obsah" id="CFF28AE3-61F0-2E36-E82A-93FBB0122446">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>DC252F2F-2839-6B59-E387-5655BEA49EB3</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="28DE2EDE-0975-B39A-B2AA-A02F81616362">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>1AC3BAE7-9A7D-DF83-8AC0-52DD9C12F5E9</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Misto_konani" id="D45FBF14-33FD-C8E5-A45B-E8F1E0B43FD1">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:35:52 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE8A75BE-F679-54C2-C200-43BAAEC59A38" name="Zed&apos; PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-10 05:15:35 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CAB40FE-DBF4-21C1-A4A1-8C44E9D18D95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

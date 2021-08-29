@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E53466CD-CE06-F880-3E14-8B259F460197" name="STUDIJNI PLAN">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:40 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_planu" id="32758B76-4661-F5BC-CBB4-72DC44BD21F1">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:40 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>C258677F-6E6B-BB1E-22D8-842894B37538</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="B45FBBE3-333A-2E3B-B48D-3A6180130543">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:40 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>4643B923-D9C4-8796-0748-CC5374ACF215</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="F70827D8-3AFF-FCF0-AE61-9783B352F648">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:40 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>AA875202-7DDE-42A7-E754-0F68F60ACFEA</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_oboru" id="2A17883F-145E-39E2-BC55-9BB7DD89CBAD">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:58:01 UTC</createdTime>
+<generatorID>C816E7A9-57FC-4E71-2253-5A4BBF8595A7</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<referedAttribute>C395D9BE-011B-0BAD-E4E7-C5398B4B9DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popis" id="AA3B6D10-EACD-8896-2AEC-73A6266F4D07">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 13:06:23 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A34DDF6B-EFEA-C693-925A-F0EFBDF2C21C" name="STUDIJNI PLAN PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:40 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32758B76-4661-F5BC-CBB4-72DC44BD21F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

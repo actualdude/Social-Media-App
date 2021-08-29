@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="928E4A00-93C4-EAE5-7A94-5E1AC61AC163" name="USER">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_user" id="1C59C075-08E8-44A1-1109-84050E156A03">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>F66E21E3-142B-8F1D-D519-8D1DF8FADEFA</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno" id="2155D4BF-50FC-0395-1A91-26892AB2E0A9">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>CD75511E-D49B-E8B3-DD74-B39CDDA4C74D</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prijmeni" id="4A29167D-1C25-DC00-69F5-F86576DAAC9B">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>1EBB437F-5141-B81E-93E4-6C96BA89E9E3</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login" id="E04EF2D2-A45D-0ECA-3BEC-F6E5CBA6A909">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>5C5AF6A6-6D4E-4887-3C27-354EBC8AB172</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="BF70CA82-8D73-232B-0672-B138FD16F92F">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<importedID>2ACEAB81-5940-2C6E-76FD-E2D985523EB8</importedID>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Platnost" id="4997B245-D910-C03F-1049-C1583FAAA526">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 13:09:03 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A85507C-C12D-BEF4-DE29-D9EE67AC360B" name="USER PK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-06 12:54:53 UTC</createdTime>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<engineerTo>
+<item key="BA1F755A-4FC4-2A26-7D0E-B2F3D329EE0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

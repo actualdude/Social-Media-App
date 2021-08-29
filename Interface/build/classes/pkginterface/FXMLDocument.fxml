@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="808.0" style="-fx-background-color: #0e0322;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkginterface.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_anchorpane" layoutX="133.0" layoutY="3.0" opacity="0.96" prefHeight="569.0" prefWidth="675.0" style="-fx-background-color: #0e0322;">
+         <children>
+            <Button fx:id="dark_color" layoutX="259.0" layoutY="533.0" mnemonicParsing="false" onAction="#method_dark_color" style="-fx-background-color: #0e0322;" text="Dark" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="light_color" layoutX="318.0" layoutY="533.0" mnemonicParsing="false" onAction="#method_light_color" style="-fx-background-color: #0e0322;" text="Light" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="12.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="394.0" layoutY="71.0" prefHeight="270.0" prefWidth="258.0" style="-fx-background-color: #4816c3;">
+               <children>
+                  <Label layoutX="27.0" layoutY="12.0" text="Login" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="39.0" text="Sign in to your account to continue" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="104.0" text="Email :" textFill="WHITE" />
+                  <Label layoutX="23.0" layoutY="156.0" text="Password :" textFill="WHITE" />
+                  <TextField fx:id="emailTextField" layoutX="86.0" layoutY="100.0" />
+                  <TextField fx:id="passTextField" layoutX="86.0" layoutY="152.0" />
+                  <Button fx:id="signin_blue" layoutX="182.0" layoutY="188.0" mnemonicParsing="false" onAction="#method_signin_blue" style="-fx-background-color: #4816c3;" text="Sign In" textFill="WHITE" />
+                  <Label layoutX="6.0" layoutY="249.0" text="Not A Member? " textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman" size="13.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="register_blue" layoutX="94.0" layoutY="244.0" mnemonicParsing="false" onAction="#method_register_blue" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #4816c3;" text="Register" textFill="#f81212">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Label fx:id="logo" layoutX="27.0" layoutY="15.0" text="IDAS_2" textFill="WHITE">
+               <font>
+                  <Font name="Algerian" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="semester" layoutX="384.0" layoutY="537.0" text="Semester Project: Emerson James Fallah &amp; Someone" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="sidebar_anchorpane" layoutX="2.0" layoutY="3.0" prefHeight="569.0" prefWidth="126.0" style="-fx-background-color: #b9bb44;">
+         <children>
+            <Button fx:id="btnMainMenu" layoutY="151.0" mnemonicParsing="false" onAction="#method_btnMainMenu" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #b9bb44;" text="Main Menu">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_dept" layoutY="201.0" mnemonicParsing="false" onAction="#method_btndept" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #b9bb44;" text="Deprt &amp; Subjects">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_groups" layoutX="3.0" layoutY="251.0" mnemonicParsing="false" onAction="#method_btn_groups" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #b9bb44;" text="Groups">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imageview" fitHeight="138.0" fitWidth="121.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="loginbar" layoutX="5.0" layoutY="506.0" mnemonicParsing="false" onAction="#method_loginbar" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #b9bb44;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_faculty" layoutX="3.0" layoutY="301.0" mnemonicParsing="false" onAction="#method_btn_faculty" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #b9bb44;" text="School Web" textFill="#566aff">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="deprt_anchorpane" layoutX="132.0" layoutY="3.0" opacity="0.96" prefHeight="569.0" prefWidth="669.0" style="-fx-background-color: #0e0322;">
+         <children>
+            <TreeView fx:id="treeview" layoutX="25.0" layoutY="33.0" prefHeight="417.0" prefWidth="620.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="groups_anchorpane" layoutX="129.0" layoutY="-1.0" opacity="0.96" prefHeight="577.0" prefWidth="682.0" style="-fx-background-color: #0e0322;">
+         <children>
+            <TableView fx:id="tableView" layoutX="31.0" layoutY="36.0" prefHeight="208.0" prefWidth="620.0">
+              <columns>
+                <TableColumn fx:id="table_tab" prefWidth="619.0" text="SKUPINY" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableView_Kom" layoutX="31.0" layoutY="310.0" prefHeight="208.0" prefWidth="620.0">
+              <columns>
+                <TableColumn fx:id="table_jmeno" prefWidth="213.0" text="NAME" />
+                <TableColumn fx:id="table_obsah" prefWidth="406.0" text="COMMENT" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A142F506-F2D0-6A84-6CD1-5F41BE468BCE" containerWithKeyObject="AEB37ACF-3065-325F-483F-F352B29BDBBA" localFKIndex="CF1F4713-1EFC-F5D7-DA97-807058028D9F" name="SKUPINA_KOMENTAR_FK">
+<createdBy>dzhohar</createdBy>
+<createdTime>2019-04-19 13:44:44 UTC</createdTime>
+<generatorID>D504C0B0-1BF0-8555-F086-1C9BFFAD53D6</generatorID>
+<ownerDesignName>projekt_IDAS1</ownerDesignName>
+<referredTableLongName>KOMENTAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D6EA717-58B5-F150-A967-19E9DD839022</referredTableID>
+<keyObject>DCE78B18-C90D-4345-5D9A-127A9EBD5ADB</keyObject>
+<referredKeyID>DCE78B18-C90D-4345-5D9A-127A9EBD5ADB</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
